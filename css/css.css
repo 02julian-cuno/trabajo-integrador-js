@@ -158,3 +158,63 @@ background-color: #1d4157;
     color: white;
     margin-left: 65px;
 }
+
+.degradado .degradado-desc {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0px;
+    color: white;
+    font-size: 1.2em;
+    left: 0px;
+    padding: 10px 15px;
+    position: absolute;
+    transition: 0.5s padding;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .degradado:hover img {
+    opacity: 0.7;
+  }
+  
+  .centrado {
+    text-align: right;
+    padding: 0.5em;
+  }
+  
+  .textizq {
+    text-align: left;
+    padding: 0.5em;
+  }
+  
+  .TextoDer {
+    position: inherit;
+    left: 40%;
+    font-size: 1.5vw;
+  }
+  
+  .textoAbajo {
+    position: relative;
+    bottom: -35%;
+  }
+  
+  .texto-negro {
+    color: black;
+  }
+  
+  .alineadoIzq {
+    text-align: left;
+    padding: 0em;
+  }
+  
+  
+  .botonEnviar {
+    /*redefine el color del botón enviar*/
+    background-color: #95c842 !important;
+    border-color: #95c842 !important;
+  }
+
+  .card-group{
+    margin-top: 25px;
+  }
+
+ 
